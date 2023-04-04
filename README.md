@@ -23,7 +23,7 @@ Em Java, existem dois tipos de grupos de dados: Primitivos e Não-primitivos, qu
 1. interfaces; e
 1. arrays;
 
-## Primitivos:   
+## Primitivos   
 
 Byte: tipo de dado inteiro ou negativo e precisa de 8 bits para ser implementado, seu valor máximo é 127 e o mínimo é -128.E sua maior vantagem é a economia de espaço/memória.       
 
@@ -41,7 +41,7 @@ Float: é um tipo de dado de precisão simples, contendo 32 bits, que armazena v
 
 Double: é um tipo de dado de dupla precisão que armazena valores decimais, mas com sua capacidade de 64 bits. A double é utilizada como padrão nos tipos de dados desta mesma espécie (decimal).  
 
-## Não Primitivos:   
+## Não Primitivos   
 
 Classes: uma classe em Java é a representação de uma absatração, que contém atributos e métodos, em que atributos são as características que compõem a classe, e os métodos são as tarefas e ações que a classe tem que cumprir.   
 
