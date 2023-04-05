@@ -52,11 +52,19 @@ Array: ele é utilizado para guardar dados do mesmo tipo, de forma que seus elem
 
 
 ## Estrutura Condicional    
-Estruturas Concionais são comandos utilizados quando se há um príncipio booleano, no qual uma instrução vai fazer algo se for verdadeira ou algo se for falsa.  
+Estruturas Concionais são comandos utilizados quando se há um príncipio booleano, no qual uma instrução será feita quando uma condição for verdadeira ou falsa.  
 
 ### If/Else  
-O If e o Else é uma estrutura de condição, portanto no código será analisado uma condição e, se essa condição for verdadeira irá fazer uma instrução, caso seja falsa irá fazer outra.
-
+O If e o Else é uma estrutura de condição, portanto no código será analisado uma condição e, se essa condição for verdadeira irá fazer uma instrução, caso seja falsa irá fazer outra.    
+Ele tem a seguinte estrutura:  
+```
+if (condição){
+	(instrução)	
+}
+else {
+	(instrução)
+}
+```
 
 ## Estrutura de Repetição     
 Estruturas de repetição, também conhecidas por _loop_, é um comando utilizado para executar repetidamente uma tarefa ou instrução, e na linguagem Java existem duas estruturas que são mais utilizadas, que são o _"For"_ e o _"While"_.    
