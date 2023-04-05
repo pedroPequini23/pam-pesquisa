@@ -52,8 +52,10 @@ Array: ele é utilizado para guardar dados do mesmo tipo, de forma que seus elem
 
 
 ## Estrutura Condicional    
+Estruturas Concionais são comandos utilizados quando se há um príncipio booleano, no qual uma instrução vai fazer algo se for verdadeira ou algo se for falsa.  
 
-
+### If/Else  
+O If e o Else é uma estrutura de condição, portanto no código será analisado uma condição e, se essa condição for verdadeira irá fazer uma instrução, caso seja falsa irá fazer outra.
 
 
 ## Estrutura de Repetição     
