@@ -105,13 +105,13 @@ No switch/case não há limites de case, mas é necessário que ele possua chanc
 Exemplo de estrutura switch/case: 
 ```
 	switch(variável) {
-		case1 "valor":
+		case 1 (o valor nesse caso é 1):
 			System.out.println("Texto");
 			break;
-		case2 "valor":
+		case 2(o valor nesse caso é 2):
 			System.out.println("Texto");
 			break;
-		case3 "valor":
+		case 3(o valor nesse caso é 3):
 			System.out.println("Texto");
 			default;
 	}
@@ -235,7 +235,11 @@ public class Exemplo {
 ```   
 
 
-## Elementos Gráficos Android Studio    
+## Elementos Visuais do Android Studio - (android view)    
+
+### O que são as views  
+As views são os blocos de conteúdo, sendo assim a view pode ser uma imagem, um pedaço de texto ou até um botão. Dito isso, o conjunto das views formam o layout da interface, logo tudo interativo no aplicativo é chamado de _"interface de usuário"_ ou _"UI"_ em inglês.
+
 
 
 
@@ -269,6 +273,6 @@ Links usados:
 - https://www.blogson.com.br/classes-objetos-atributos-e-metodos-em-java/   
 - https://www.devmedia.com.br/entendendo-interfaces-em-java/25502   
 - https://www.freecodecamp.org/portuguese/news/metodos-de-arrays-em-java-como-imprimir-um-array-em-java/#:~:text=Um%20array%20%C3%A9%20uma%20estrutura,ser%20invocados%20em%20um%20array.   
-   
+-https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/    
 
 
