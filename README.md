@@ -98,7 +98,10 @@ public class Exemplo {
 	
 }
 ```   
-
+### Switch/case   
+A estrutura switch/case tem a mesma função do if/else, e é bem utilizada quando há muitas opções a ser analisadas. Portanto ele é usado para não ficar repetindo múltiplos ifs em seu código.   
+O switch/case analisa o valor da variável, efetuando uma comparação entre opções. Tais opções utilizam a instrução _"case"_, assim referindo  cada opção como um "caso".   
+No switch/case não há limites de case, mas é necessário que ele possua chance de receber os valores que estão instruidos dentrod dele. Quando a variável analisada não receber nenhum valor contido no case, o último código invés de ser case será _"default"_ <padrão>. Por fim, a analise dos casos precisam ter um final delimitado, e a sintaxe utilizada é a palavra _"break"_
 
 ## Estrutura de Repetição     
 Estruturas de repetição, também conhecidas por _loop_, é um comando utilizado para executar repetidamente uma tarefa ou instrução, e na linguagem Java existem duas estruturas que são mais utilizadas, que são o _"For"_ e o _"While"_.    
