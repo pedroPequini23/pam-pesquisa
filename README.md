@@ -72,13 +72,33 @@ Também é possível combinar o else com o if, virando "else if" que tem o prop�
 if<se> (condição){
 	(instrução)
 }
-else if<senao se> {
+else if<senao se> (condição){
 	(instrução)
 }
 else<senao> {
 	(instrução)
 }
+```   
+Um exemplo dessa estrutura em funcionamento é essa:
 ```
+package br.com.treinaweb;
+
+public class Exemplo {
+	
+    public static void main(String[] args) {
+        int resposta = 10;
+        if (resposta == 10) { 
+            System.out.println(“A resposta é exatamente 10!”);
+        } else if (resposta > 10) {
+            System.out.println(“A resposta é maior que 10!”);
+        } else {
+            System.out.println(“A resposta é menor que 10!”);
+        }
+    }
+	
+}
+```   
+
 
 ## Estrutura de Repetição     
 Estruturas de repetição, também conhecidas por _loop_, é um comando utilizado para executar repetidamente uma tarefa ou instrução, e na linguagem Java existem duas estruturas que são mais utilizadas, que são o _"For"_ e o _"While"_.    
