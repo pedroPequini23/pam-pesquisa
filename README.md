@@ -102,7 +102,21 @@ public class Exemplo {
 A estrutura switch/case tem a mesma função do if/else, e é bem utilizada quando há muitas opções a ser analisadas. Portanto ele é usado para não ficar repetindo múltiplos ifs em seu código.   
 O switch/case analisa o valor da variável, efetuando uma comparação entre opções. Tais opções utilizam a instrução _"case"_, assim referindo  cada opção como um "caso".   
 No switch/case não há limites de case, mas é necessário que ele possua chance de receber os valores que estão instruidos dentrod dele. Quando a variável analisada não receber nenhum valor contido no case, o último código invés de ser case será _"default"_ (padrão). Por fim, a análise dos casos precisam ter um final delimitado, e a sintaxe utilizada é a palavra _"break"_.   
-O Switch/case tem a seguinte estrutura:
+Exemplo de estrutura switch/case: 
+```
+	switch(variável) {
+		case1 "valor":
+			System.out.println("Texto");
+			break;
+		case2 "valor":
+			System.out.println("Texto");
+			break;
+		case3 "valor":
+			System.out.println("Texto");
+			default;
+	}
+```
+Um exemplo dessa estrutura em funcionamento é:
 ```
 package br.com.treinaweb;
 
