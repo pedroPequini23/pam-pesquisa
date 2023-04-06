@@ -1,4 +1,4 @@
-# Pesquisa Java - PAMI
+# Pesquisa Java - PAM
 ### Pedro Santos Pequini e Renan Mitsuru Nishitani Souza 2°DS
 Pesquisa de PAM sobre JAVA
 
