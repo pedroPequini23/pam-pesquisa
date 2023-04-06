@@ -240,7 +240,7 @@ public class Exemplo {
 ### O que são as views  
 As views são os blocos de conteúdo, sendo assim a view pode ser uma imagem, um pedaço de texto ou até um botão. Dito isso, o conjunto das views formam o layout da interface, logo tudo interativo no aplicativo é chamado de _"interface de usuário"_ ou _"UI"_ em inglês.    
 
-###TextView   
+### TextView   
 É uma view que mostra algum texto.   
 
 Sua sintaxe é :   
