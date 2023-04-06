@@ -101,7 +101,61 @@ public class Exemplo {
 ### Switch/case   
 A estrutura switch/case tem a mesma função do if/else, e é bem utilizada quando há muitas opções a ser analisadas. Portanto ele é usado para não ficar repetindo múltiplos ifs em seu código.   
 O switch/case analisa o valor da variável, efetuando uma comparação entre opções. Tais opções utilizam a instrução _"case"_, assim referindo  cada opção como um "caso".   
-No switch/case não há limites de case, mas é necessário que ele possua chance de receber os valores que estão instruidos dentrod dele. Quando a variável analisada não receber nenhum valor contido no case, o último código invés de ser case será _"default"_ <padrão>. Por fim, a analise dos casos precisam ter um final delimitado, e a sintaxe utilizada é a palavra _"break"_
+No switch/case não há limites de case, mas é necessário que ele possua chance de receber os valores que estão instruidos dentrod dele. Quando a variável analisada não receber nenhum valor contido no case, o último código invés de ser case será _"default"_ (padrão). Por fim, a análise dos casos precisam ter um final delimitado, e a sintaxe utilizada é a palavra _"break"_.   
+O Switch/case tem a seguinte estrutura:
+```
+package br.com.treinaweb;
+
+public class Exemplo {
+	
+    public static void main(String[] args) {
+        int mes = 2;
+        switch (mes) {
+            case 1:
+                System.out.println(“O mês é janeiro”);
+                break;
+            case 2:
+                System.out.println(“O mês é fevereiro”);
+                break;
+            case 3:
+                System.out.println(“O mês é março”);
+                break;
+            case 4:
+                System.out.println(“O mês é abril”);
+                break;
+            case 5:
+                System.out.println(“O mês é maio”);
+                break;
+            case 6:
+                System.out.println(“O mês é junho”);
+                break;
+            case 7:
+                System.out.println(“O mês é julho”);
+                break;
+            case 8:
+                System.out.println(“O mês é agosto”);
+                break;
+            case 9:
+                System.out.println(“O mês é setembro”);
+                break;
+            case 10:
+                System.out.println(“O mês é outubro”);
+                break;
+            case 11:
+                System.out.println(“O mês é novembro”);
+                break;
+            case 12:
+                System.out.println(“O mês é dezembro”);
+                break;
+            default:
+                System.out.println(“Mês inválido”);
+                break;
+        }
+    }
+	
+}
+```    
+
 
 ## Estrutura de Repetição     
 Estruturas de repetição, também conhecidas por _loop_, é um comando utilizado para executar repetidamente uma tarefa ou instrução, e na linguagem Java existem duas estruturas que são mais utilizadas, que são o _"For"_ e o _"While"_.    
