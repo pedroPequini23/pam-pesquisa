@@ -334,8 +334,7 @@ Sua sintaxe é :
         app:showAsAction="collapseActionView|ifRoom"
         app:actionViewClass="android.support.v7.widget.SearchView" />
 </menu>
-```    
-
+```      
 
 
 OBS: É possível perceber que nos elementos visuais a sintaxe lembra um pouco de html e css.
@@ -363,6 +362,7 @@ Links usados:
 - https://www.blogson.com.br/classes-objetos-atributos-e-metodos-em-java/   
 - https://www.devmedia.com.br/entendendo-interfaces-em-java/25502   
 - https://www.freecodecamp.org/portuguese/news/metodos-de-arrays-em-java-como-imprimir-um-array-em-java/#:~:text=Um%20array%20%C3%A9%20uma%20estrutura,ser%20invocados%20em%20um%20array.   
-- https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/ -    
-- https://developer.android.com/reference/android/widget/LinearLayout.html -
-- https://www.thiengo.com.br/buscas-com-searchview-e-searchrecentsuggestions-material-design-android-parte-13#:~:text=O%20SearchView%20%C3%A9%20a%20interface,folder%20%2Fres%2Fxml%2F. -
+- https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/   
+- https://developer.android.com/reference/android/widget/LinearLayout.html   
+- https://www.thiengo.com.br/buscas-com-searchview-e-searchrecentsuggestions-material-design-android-parte-13#:~:text=O%20SearchView%20%C3%A9%20a%20interface,folder%20%2Fres%2Fxml%2F.  
+- https://developer.android.com/training/gestures/scroll?hl=pt-br#:~:text=No%20Android%2C%20a%20rolagem%20%C3%A9,visualiza%C3%A7%C3%A3o%20rol%C3%A1vel%20gerenciada%20pelo%20framework.    
