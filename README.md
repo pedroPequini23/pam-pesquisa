@@ -307,6 +307,20 @@ Sua sintaxe é :
     android:layout_height="match_content" />
 ```     
 
+### LinearLayout   
+É um layout no qual organiza outros elementos horizontalmente em uma única coluna ou verticalmente em uma só linha.   
+Sua sintaxe é :   
+```
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingLeft="16dp"
+   android:paddingRight="16dp"
+   android:orientation="horizontal"
+   android:gravity="center">  
+</LinearLayout>
+```
+
 OBS: É possível perceber que nos elementos visuais a sintaxe lembra um pouco de html e css.
 
 
@@ -332,6 +346,6 @@ Links usados:
 - https://www.blogson.com.br/classes-objetos-atributos-e-metodos-em-java/   
 - https://www.devmedia.com.br/entendendo-interfaces-em-java/25502   
 - https://www.freecodecamp.org/portuguese/news/metodos-de-arrays-em-java-como-imprimir-um-array-em-java/#:~:text=Um%20array%20%C3%A9%20uma%20estrutura,ser%20invocados%20em%20um%20array.   
--https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/    
-
+- https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/ -    
+- https://developer.android.com/reference/android/widget/LinearLayout.html -
 
