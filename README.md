@@ -319,7 +319,24 @@ Sua sintaxe é :
    android:orientation="horizontal"
    android:gravity="center">  
 </LinearLayout>
+```   
+
+### SearchView    
+É a interface no qual o usuário consegue interagir, assim podendo fazer pesquisas de outros itens.   
+Sua sintaxe é :    
 ```
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android "
+    xmlns:app="http://schemas.android.com/apk/res-auto ">
+    <item android:id="@+id/search"
+        android:title="@string/hint_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>
+```    
+
+
 
 OBS: É possível perceber que nos elementos visuais a sintaxe lembra um pouco de html e css.
 
@@ -348,4 +365,4 @@ Links usados:
 - https://www.freecodecamp.org/portuguese/news/metodos-de-arrays-em-java-como-imprimir-um-array-em-java/#:~:text=Um%20array%20%C3%A9%20uma%20estrutura,ser%20invocados%20em%20um%20array.   
 - https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/ -    
 - https://developer.android.com/reference/android/widget/LinearLayout.html -
-
+- https://www.thiengo.com.br/buscas-com-searchview-e-searchrecentsuggestions-material-design-android-parte-13#:~:text=O%20SearchView%20%C3%A9%20a%20interface,folder%20%2Fres%2Fxml%2F. -
