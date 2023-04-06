@@ -238,17 +238,76 @@ public class Exemplo {
 ## Elementos Visuais do Android Studio - (android view)    
 
 ### O que são as views  
-As views são os blocos de conteúdo, sendo assim a view pode ser uma imagem, um pedaço de texto ou até um botão. Dito isso, o conjunto das views formam o layout da interface, logo tudo interativo no aplicativo é chamado de _"interface de usuário"_ ou _"UI"_ em inglês.
+As views são os blocos de conteúdo, sendo assim a view pode ser uma imagem, um pedaço de texto ou até um botão. Dito isso, o conjunto das views formam o layout da interface, logo tudo interativo no aplicativo é chamado de _"interface de usuário"_ ou _"UI"_ em inglês.    
 
+###TextView   
+É uma view que mostra algum texto.   
 
+Sua sintaxe é :   
+```
+<TextView
+	android:text="Digite o texto"
+	android:background="@android:color/blue"
+	android:layout_width="250dp"
+	android:layout_height="125dp"/>
+```    
 
+###ImageView
+É a view para exibir imagens na tela.    
+Sua sintaxe é :    
+```
+<ImageView
+	android:src="@drawable/imagem"
+	android:layout_height="wrap-content"
+	android:layout_width="wrap-content"
+	android:scaleType="center"/>
+```    
 
+###Button
+É um botão que ao clicar faz uma ação.   
+Sua sintaxe é :   
+```
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Botão Voltar"
+     android:onClick="clicar" />
+```   
 
+###ImageButton   
+É uma combinação do _"Button"_ com a _"ImageView"_.  
+Sua sintaxe é :   
+```
+<ImageButton
+    android:id="@+id/imageButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/imagem" />
+```   
 
+###EditText   
+Possui quase a mesma função da _"TextView"_, nela é possível que o usuário edite o texto através da entrada de um teclado.   
+Sua sintaxe é :  
+```
+<EditText
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Adicione seu email"
+    android:inputType="textEmailAddress" />
+```
 
+###ListView   
+É basicamente uma lista, que ao ser clicado em uma categoria pode abrir outras ou gerar uma ação.    
+Sua sintaxe é :    
+```
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview"
+    android:layout_width="match_content"
+    android:layout_height="match_content" />
+```     
 
-
-
+OBS: É possível perceber que nos elementos visuais a sintaxe lembra um pouco de html e css.
 
 
 
