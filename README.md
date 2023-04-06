@@ -252,7 +252,7 @@ Sua sintaxe é :
 	android:layout_height="125dp"/>
 ```    
 
-###ImageView
+### ImageView
 É a view para exibir imagens na tela.    
 Sua sintaxe é :    
 ```
@@ -263,7 +263,7 @@ Sua sintaxe é :
 	android:scaleType="center"/>
 ```    
 
-###Button
+### Button
 É um botão que ao clicar faz uma ação.   
 Sua sintaxe é :   
 ```
@@ -274,7 +274,7 @@ Sua sintaxe é :
      android:onClick="clicar" />
 ```   
 
-###ImageButton   
+### ImageButton   
 É uma combinação do _"Button"_ com a _"ImageView"_.  
 Sua sintaxe é :   
 ```
@@ -285,7 +285,7 @@ Sua sintaxe é :
     android:src="@drawable/imagem" />
 ```   
 
-###EditText   
+### EditText   
 Possui quase a mesma função da _"TextView"_, nela é possível que o usuário edite o texto através da entrada de um teclado.   
 Sua sintaxe é :  
 ```
@@ -297,7 +297,7 @@ Sua sintaxe é :
     android:inputType="textEmailAddress" />
 ```
 
-###ListView   
+### ListView   
 É basicamente uma lista, que ao ser clicado em uma categoria pode abrir outras ou gerar uma ação.    
 Sua sintaxe é :    
 ```
